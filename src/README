@@ -1,0 +1,13 @@
+Algorithms and Data Structures Assignment 1
+
+Project Structure
+This project contains a set of problems related to algorithms and data structures. The structure of the project is as follows:
+Main Class (Main.java): Serves as the entry point of the project, allowing the user to select and run different problem solutions.
+problems Package: Contains individual problem solutions. Each problem is implemented in a separate class and follows a structured format with a run method for execution.
+
+Running the Project
+Run the Main.java file.
+Follow the instructions in the console to select and execute a specific problem.
+
+Example Usage
+When you run the project, you will be prompted to enter the problem number. The corresponding solution will then execute and display the result based on user input.
