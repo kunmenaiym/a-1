@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Task1 {
 
     // Starts the program by reading user input, measuring execution time
-    public static void run(){
-        Scanner in = new Scanner(System.in);
+    public static void run(Scanner in){
 
         // Reading array size
         int n = in.nextInt();
@@ -25,7 +24,6 @@ public class Task1 {
         System.out.println(result);
         System.out.println("Time taken: " + duration + " milliseconds");
     }
-
 
     /**
      * This method finds the minimum element in a given array.

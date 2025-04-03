@@ -14,57 +14,63 @@ public class Main {
 
             System.out.println("Choise problem between 1 and 10 or 0 exit: ");
 
+            if (!in.hasNextInt()) {
+                System.out.println("Invalid input. Please enter a number.");
+                in.next();
+                continue;
+            }
+
             int choice = in.nextInt();
 
             switch (choice) {
                 case 1:
                     System.out.print("Enter a value for the task: ");
-                    Task1.run();
+                    Task1.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 2:
                     System.out.print("Enter a value for the task: ");
-                    Task2.run();
+                    Task2.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 3:
                     System.out.print("Enter a value for the task: ");
-                    Task3.run();
+                    Task3.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 4:
                     System.out.print("Enter a value for the task: ");
-                    Task4.run();
+                    Task4.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 5:
                     System.out.print("Enter a value for the task: ");
-                    Task5.run();
+                    Task5.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 6:
                     System.out.print("Enter a value for the task: ");
-                    Task6.run();
+                    Task6.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 7:
                     System.out.print("Enter a value for the task: ");
-                    Task7.run();
+                    Task7.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 8:
                     System.out.print("Enter a value for the task: ");
-                    Task8.run();
+                    Task8.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 9:
                     System.out.print("Enter a value for the task: ");
-                    Task9.run();
+                    Task9.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 10:
                     System.out.print("Enter a value for the task: ");
-                    Task10.run();
+                    Task10.run(in);
                     System.out.println("-----------------------------------------------------------------------------");
                     break;
                 case 0:
