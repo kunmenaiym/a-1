@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Task2 {
 
     // Starts the program by reading user input, measuring execution time
-    public static void run(){
-        Scanner in = new Scanner(System.in);
+    public static void run(Scanner in) {
+
 
         // Reading array size
         int n = in.nextInt();
