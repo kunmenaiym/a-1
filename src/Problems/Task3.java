@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Task3 {
 
     // Starts the program by reading user input, measuring execution time
-    public static void run (){
+    public static void run (Scanner in) {
 
-        Scanner in = new Scanner(System.in);
+
         int n = in.nextInt();
 
         // Check if the number is prime or composite
