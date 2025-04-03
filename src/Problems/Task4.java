@@ -3,6 +3,8 @@ package Problems;
 import java.util.Scanner;
 
 public class Task4 {
+
+    // Starts the program by reading user input, measuring execution time
     public static void run() {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
